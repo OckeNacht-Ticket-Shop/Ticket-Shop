@@ -7,7 +7,7 @@ const config = {
 	// for more information about preprocessors
 	preprocess: vitePreprocess(),
 	compilerOptions: {
-		runes: true
+		runes: true // Enable runes in Svelte components and templates, for more information see https://svelte.dev/docs/svelte/legacy-overview
 	},
 
 	kit: {

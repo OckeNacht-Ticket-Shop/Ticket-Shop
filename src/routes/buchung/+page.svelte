@@ -4,6 +4,7 @@
 
  onMount(() => {
     if (browser) {
+        // Navigate back in the browser history on mount to return the user to the previous page, as this page is not meant to be accessed directly.
         window.history.back();
     }
  })
